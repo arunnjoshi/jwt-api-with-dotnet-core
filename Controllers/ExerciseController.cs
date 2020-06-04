@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using fitness_tracker_api.Models;
 using fitness_tracker_api.Repository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace fitness_tracker_api.Controllers
@@ -9,6 +10,7 @@ namespace fitness_tracker_api.Controllers
 
 	[ApiController]
 	[Route("api/exercises")]
+	[Authorize]
 	public class ExerciseController : ControllerBase
 	{
 		private readonly IExerciseRepo _repo;

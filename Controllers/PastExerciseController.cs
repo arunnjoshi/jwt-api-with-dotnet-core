@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace fitness_tracker_api.Controllers
 {
-	[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+	
 	[Route("api/pastExercises")]
 	public class PastExerciseController : ControllerBase
 	{
