@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace fitness_tracker_api.Helpers
+﻿namespace fitness_tracker_api.Helpers
 {
     public class AppSettings
     {

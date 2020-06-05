@@ -4,6 +4,6 @@ namespace fitness_tracker_api.Repository
 {
     public interface IAuthRepo
     {
-        public UserModel Authenticate(string emailId,string password);
+        public UserModel Authenticate(string emailId, string password);
     }
 }
